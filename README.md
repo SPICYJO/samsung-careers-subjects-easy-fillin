@@ -26,9 +26,9 @@ main.py를 실행하면 자동으로 교과목 기입이 시작된다.
 
 ## 데모영상
 ![demo.gif](https://github.com/SPICYJO/samsung-careers-subjects-easy-fillin/blob/master/screenshots/demo.gif?raw=true)
-위 gif는 자동으로 실행되는 모습입니다.
+위 gif는 자동으로 실행되는 모습이다.
 
 ## 버그정보
 프로그램 내에서 웹페이지가 다 로드되지 않은 상태에서 클릭을 수행하려고 할 때, 예외가 발생하는 버그가 있다.
-이를 막기 위해 time.sleep()을 통해 기다리도록 코드를 작성해놓았다. 서버에 접속자가 많아 느려지는 등의 상황에서는
+이를 막기 위해 time.sleep()을 통해 강제로 기다리도록 코드를 작성해놓았다. 서버에 접속자가 많아 느려지는 등의 상황에서는
 func.py 내부의 time.sleep()의 인자값을 바꾸는 방법을 시도해보기 바란다.
